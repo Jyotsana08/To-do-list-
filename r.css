@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+  color:red;
+}
+
+.todo-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: yellow ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color:green;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+li.completed {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+}
+button{
+  color: black ;
+  background-color: orange;
+}
